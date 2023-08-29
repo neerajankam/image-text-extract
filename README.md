@@ -1,7 +1,7 @@
 
 # Text Extract App
 
-Welcome to the world of **Text Extract**! 🔍 This Flask application provides endpoints to simplify text extraction from images and store the results in a PostgreSQL database.
+🔍 This is a simple web application that combines a Flask backend and a React frontend to provide endpoints for text extraction from images. The extracted text is processed using Tesseract OCR and stored in a PostgreSQL database.
 
 ## Overview
 
