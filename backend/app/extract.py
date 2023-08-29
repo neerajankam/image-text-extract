@@ -25,6 +25,7 @@ class Extract:
             logging.critical(
                 "Make sure tesseract is installed on the server and the path is set correctly."
             )
+            return
         self.add_result_to_database(text)
 
     def get_text(self) -> str:
@@ -75,4 +76,4 @@ class Extract:
         except SQLAlchemyError:
             logging.exception("Error while interacting with the database.")
         except MultipleResultsFound:
-            logging.exception("Multiple results were found in the database!")
+            logging.exception("Multiple results were found in the database.")
