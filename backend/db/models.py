@@ -18,8 +18,4 @@ class Extracts(Base):
     content = Column(Text)
 
 
-# while True:
-#     if Database.wait_for_database():
-#         break
-# # Create the tables
 Base.metadata.create_all(bind=Database.get_engine())
