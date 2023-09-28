@@ -3,7 +3,7 @@
 
 🔍 This is a simple web application that combines a Flask backend and a React frontend to provide endpoints for text extraction from images. The extracted text is processed using Tesseract OCR and stored in a PostgreSQL database.
 
-Presentation: https://www.loom.com/share/162da4e15a0d4e7197877d64c4ff5550?sid=6fefe021-e7ec-447d-90e3-9b973c0502cf
+Presentation: https://tinyurl.com/text-ract
 
 ## Overview
 
